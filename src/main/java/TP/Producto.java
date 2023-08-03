@@ -1,0 +1,47 @@
+package TP;
+
+public class Producto {
+	private Integer id;
+	private String nombre;
+	private String descripcion;
+	private Double precioUnitario;
+	private Double peso;
+
+	public Producto() {};
+	public Producto(String nombre,String descripcion,Double precio,Double peso) {
+		this();
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.precioUnitario = precio;
+		this.peso = peso;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public Double getPrecio() {
+		return precioUnitario;
+	}
+	public Double getPeso() {
+		return peso;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+	public void setPrecioUnitario(Double precioUnitario) {
+		this.precioUnitario = precioUnitario;
+	}
+	public void setPeso(Double peso) {
+		this.peso = peso;
+	}
+	
+	
+}
